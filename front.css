@@ -18,10 +18,10 @@ a {
 
 .header {
   
-  height: 10rem;
+  height: 9.125rem;
   width: auto;
-  padding: 1rem 0.5rem;
-  text-align: ;
+  padding: 0.5rem;
+  text-align: center;
   background-color: #1a0000;/*#9f6060 vs #68101d vs #1a0000*/
   color: #ffffcc; 
   font-family: quicksand;
@@ -37,45 +37,35 @@ a {
   margin-right: -1.5rem;
 }
 
-.title {
-  
-  width: 100%;
-  height: 100%;
-  display: inline;
-  float: left;
-  text-align: center;
-  
+i:link{
+  color: #ffffe6;
+  text-decoration: none;
 }
 
-/*.contacticon {
-  
-  width: 20%;
-  height: 100%;
-  display: inline;
-  float: right;
-  text-align: right;
-  padding: 2rem 0;
+i:visited {
+  color: #ffffe6;
+  text-decoration: none;
+}
 
-}*/
+i:hover {
+  text-decoration: none;
+  color: #ffcccc;
+}
 
-.contacticon i {
-  padding: 0.1rem;
+h1 {
+  letter-spacing: 0.19rem;
 }
 
 .footer {
   
-  height: 5rem;
+  height: 4rem;
   background-color: #1a0000;/*#9f6060 vs #68101d vs #1a0000*/
   color: #ffffe6;  
-  padding: 1rem;
+  padding: 0.5rem;
   line-height: 1rem;
   font-size: 0.8rem;
   text-align: center;
   
-}
-
-.fa fa-phone-square{
-  color: green;
 }
 
 h3 {
