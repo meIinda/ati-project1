@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+}
+
+.desktopview{
+  display: none;
+}
+
+  @media(min-width:1200px){
+    .desktopview {
+      display: block;
+    }
+  }
+
+a { 
+  text-decoration: none;
+}
+
+.header {
+  
+  height: 10rem;
+  width: auto;
+  padding: 1rem 0.5rem;
+  text-align: ;
+  background-color: #1a0000;/*#9f6060 vs #68101d vs #1a0000*/
+  color: #ffffcc; 
+  font-family: quicksand;
+  
+}
+
+.header a, .footer a {
+  color: #ffffe6;
+}
+
+.btn {
+  margin-top: -1rem;
+  margin-right: -1.5rem;
+}
+
+.title {
+  
+  width: 100%;
+  height: 100%;
+  display: inline;
+  float: left;
+  text-align: center;
+  
+}
+
+/*.contacticon {
+  
+  width: 20%;
+  height: 100%;
+  display: inline;
+  float: right;
+  text-align: right;
+  padding: 2rem 0;
+
+}*/
+
+.contacticon i {
+  padding: 0.1rem;
+}
+
+.footer {
+  
+  height: 5rem;
+  background-color: #1a0000;/*#9f6060 vs #68101d vs #1a0000*/
+  color: #ffffe6;  
+  padding: 1rem;
+  line-height: 1rem;
+  font-size: 0.8rem;
+  text-align: center;
+  
+}
+
+.fa fa-phone-square{
+  color: green;
+}
+
+h3 {
+  text-align: center;
+  padding: 45% 0.1rem;
+}
+
+#foodpic {
+  
+  background: url(assets/levesek.jpg) no-repeat;
+  background-position: center;
+  background-size: 125%;
+  
+}
+
+#italpic {
+  
+  background: url(assets/itallap.jpg) no-repeat;
+  background-position: center;
+  background-size: 110%;
+  
+}
+
+#mushpic {
+  
+  background: url(assets/gomba.jpg) no-repeat;
+  background-position: center;
+  background-size: 110%;
+  
+}
+
+@media(min-width:768px)
+{
+  #foodpic, #italpic, #mushpic {
+    height: 25vh;
+    width: 80%;
+    background-size: 250%;
+    z-index: 0;
+    padding: 0 50%;
+  }
+}
+
+#foodtext {
+  
+  background-color: #cc3300;
+  opacity: 74%;
+  color: antiquewhite;
+  font-family: inherit;
+  
+}
+
+#foodtext a{
+  
+  color: antiquewhite;
+  text-decoration: none;
+
+}
+#foodtext:hover {
+  opacity: 100%;
+}
+
+#italtext {
+  
+  background-color: #ffbb33;
+  opacity: 85%;
+  color: cornsilk;
+  font-family:fantasy;
+  
+}
+#italtext a{
+  
+  color: cornsilk;
+  text-decoration: none;
+
+}
+#italtext:hover {
+  opacity: 100%;
+}
+
+#mushtext {
+  
+  background-color: cadetblue;
+  opacity: 85%;
+  color: azure;
+  font-family:monospace;
+  
+}
+  #mushtext a{
+  
+  color: azure;
+  text-decoration: none;
+
+}
+
+#mushtext:hover {
+  opacity: 100%;
+}
+
+@media(min-width:768px)
+{
+  #foodtext, #italtext, #mushtext {
+    opacity: 80%;
+    height: 25vh;
+    padding: 50%;
+    z-index: 1;
+    letter-spacing: 0.3rem;
+    
+  }
+}
+
+@media(min-width:1200px) {
+  
+  #foodtext, #italtext, #mushtext {
+  
+  letter-spacing: 1.1rem;
+  padding: 45% 50%;
+  
+  }
+}
+
+
+
+
